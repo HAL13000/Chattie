@@ -1,0 +1,27 @@
+div.sendMsg {
+    width: 100%;
+    align-items: center;
+    background-color: #fff;
+    text-align: left;
+    padding: 3%;
+    height: 3%;
+}
+/* div.sendMsgContainer {
+    background-color: blue;
+} */
+div.sendMsgContainer svg{
+    position: absolute;
+    right: 0;
+    padding-right: 10px;
+}
+@media (max-width:700px){
+        
+}
+   
+@media (min-width:701px){
+    div.sendMsg {
+        padding: 1%;
+        
+    }
+
+}

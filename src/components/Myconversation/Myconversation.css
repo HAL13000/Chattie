@@ -1,0 +1,40 @@
+div.myConversation {
+    border: 1px solid #fff;
+    box-shadow: 1px 1px 2px 1px rgba(0, 0, 0, 0.2);
+    border-radius: 10px;
+    margin-top: 10px;
+    padding-left: 8px;
+    color: #05161e;
+    margin:  2%;
+}
+
+div.myConv_conversation {
+    display: flex;
+    /* justify-content: space-between; */
+    align-items: center;
+}
+div.myConv_conversation img{
+    width: 45px;
+    height: 45px;
+    border-radius: 100px;
+    background: #377da3;
+    border: 1px solid #fff;
+    
+    margin: 1%;
+}
+
+div.myConvContents {
+    margin-left: 5px;
+}
+p.myConvDisplayName{
+    color: #05161e;
+    font-size: 16px;
+    margin: 0;
+}
+p.myConvMessage, div.myConvMessage{
+    font-size: 10px;
+    margin: 0;
+}
+
+
+

@@ -1,0 +1,158 @@
+div.newAccount {
+    color: #05161e;
+    height: 100vh;
+    background-color: rgba(190, 207, 233, 0.5);
+    background-image:  url('../../pics/background01.png');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+}
+    div.newAccount div.logo img{
+        /* background: blue; */
+        width: 20%;
+        padding: 2%;
+        position: fixed;
+    }
+
+div.newAccountContainer {
+    background: #fff;
+    /* text-align: center; */
+    margin: 0;
+    padding: 2% 10%;
+    margin: 10% 2% auto 5%;
+    border-radius: 50px;
+}
+    div.newAccountContainer h2{
+        text-align: center;
+    }
+
+    div.newAccountFormContainer p {
+        /* background: red; */
+        font-size: 13px;
+        padding-left: 5%;
+        padding-top: 5%;
+        margin: 0;
+    }
+    div.newAccountFormContainer input {
+        border-radius: 50px;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2);
+        border: none;
+        padding: 5%;
+        width: 90%;
+    }
+    div.newAccountFormContainer button{
+        cursor: pointer;
+        margin: 5% 0;
+        font-size: 13px;
+        width: 100%;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+div.backToLogIn{
+    margin: 0;
+    padding-bottom: 15%;
+}
+    div.backToLogIn p{
+        border-top: 2px solid #05161e;
+        border-radius: 1px;
+    }
+    div.backToLogIn button {
+        width: 100%;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+ @media (max-width:700px){
+    div.newAccountWave {
+        display: none;
+    }
+    div.newAccountWelcomeBack {
+        display: none;
+    }
+    
+ }
+    
+ @media (min-width:701px){
+    div.newAccount {
+        overflow: hidden;
+    }
+        div.newAccount div.logo img{
+            width: 100px;
+        }
+    div.newAccountWrapper {
+        flex-direction: row-reverse;
+        display: flex;
+        justify-content: space-between;
+    }
+    div.newAccountContainer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100%;
+        width: 40%;
+        margin: 0;
+        height: 100vh;
+        border-radius: 0;
+        padding: 0 5% 10%;
+        background: #fff;
+    }
+
+        div.newAccountContainer h2{
+            width: 100%;
+            font-size: 32px;
+        } 
+        div.newAccountContainer form{ 
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            margin: 0;
+            padding: 0;
+        }
+        div.newAccountFormContainer {
+            /* background: lightblue; */
+            padding: 0;
+            width: fit-content;
+        }
+        div.newAccountFormContainer input {
+            padding: 20px;
+            width: 300px;
+        }
+        div.newAccountFormContainer p {
+            width: fit-content;
+            margin: 0;
+        }
+        div.newAccountFormContainer button{
+            cursor: pointer;
+            margin: 20px 0;
+            width: 340px;
+        }
+        div.backToLogIn button{
+            display: none;
+        }
+        div.backToLogIn p {
+            display: none;
+        }
+    div.newAccountWave {
+        position: relative;
+    }
+    div.newAccountWelcomeBack {
+        color: #05161e;
+        text-align: center;
+        width: 20%;
+        padding: 10% 10% 5%;
+    }
+        div.newAccountWelcomeBack div.welcomeBack {
+            margin: 60% 0;
+            z-index: 2;
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            /* background: #05161e35; */
+            /* border-radius: 20px; */
+            /* padding: 5%; */
+            /* color: #fff; */
+        }
+ }

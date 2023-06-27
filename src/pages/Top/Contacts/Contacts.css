@@ -1,0 +1,102 @@
+/* div.contacts {
+} */
+header div.contactsContainer {
+    display: flex;
+}
+header.contacts button{
+    background-color: transparent;
+    margin: 0 0 0 10px;
+}
+header.contacts h1 {
+    margin: 0;
+    font-size: 20px;
+    padding:0 10px;
+}
+ul.contactsList {
+    color: #05161e;
+    margin: 0;
+    padding: 3%;
+}
+ul.contactsList li{
+    list-style: none;
+    border: #fff 1px solid;
+    border-radius: 20px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    padding: 0 5%;
+    margin: 2%;
+    display: flex;
+}
+    ul.contactsList li img{
+        width: 65px;
+        height: 65px;
+        background-color: #377da3;
+        border-radius: 65px;
+        border: #fff 3px solid;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        margin: 3% 0 0 0;
+    }
+    div.contactsInfos {
+        /* background-color: red; */
+        margin: 2%;
+    }
+        p.contactsInfo {
+            font-size: 13px;
+            padding: 0;
+            margin: 2% 0;
+        }
+        p.contactsData {
+            padding: 0;
+            margin: 0;
+        }
+        
+@media (max-width:700px){
+       
+        
+}
+           
+@media (min-width:701px){
+    div.contactsListWrapper {
+        /* background-color: red; */
+        width: 90%;
+        height: 20%;
+        margin: 0 5%;
+    }
+    ul.contactsList {
+        color: #05161e;
+        margin: 0;
+        padding: 1%;
+    }
+    ul.contactsList li{
+        list-style: none;
+        /* padding: 0 2% ; */
+        margin: 1%;
+    }
+        ul.contactsList li img{
+            /* background-color: yellow; */
+            width: 100px;
+            height: 100px;
+            border-radius: 100px;
+            border: #fff 2px solid;
+            margin: 2%;
+        }
+        div.contactsInfos {
+            /* background-color: blue; */
+            margin: 0;
+            display: flex;
+            flex-direction: row;            
+        }
+            div.contactsSmallContainer {
+                /* background-color: green; */
+                padding: 3%;
+                margin: 5%;
+            }
+            p.contactsInfo {
+                font-size: 13px;
+                padding: 0;
+                margin: 0;
+            }
+            p.contactsData {
+                padding: 0;
+                margin: 0;
+            }
+}

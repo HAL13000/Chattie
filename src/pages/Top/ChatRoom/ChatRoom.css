@@ -1,0 +1,90 @@
+div.chatRoom {
+    height: 100vh;
+    background-color: rgba(190, 207, 233, 0.5);
+    background-image:  url('../../../pics/background01.png');
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: cover;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+}
+header div.chatRoomContainer {
+    display: flex;
+}
+    header.chatRoom button{
+        margin: 0 0 0 10px;
+        background: transparent;
+    }
+    header.chatRoom div.usersName{
+        padding: 0;
+        margin: 0;
+        font-size: 20px;
+        color: #fff;
+    }
+    header.chatRoom h1 {
+        margin: 0;
+        font-size: 20px;
+        padding:0 10px;
+    }
+div.chatroomMsgs {
+    padding: 0 0 15% 0;
+    display: flex;
+    flex-direction: column-reverse;
+    overflow-y: auto;
+    margin: 0;
+    height: 88%;
+}
+    div.chatroomMsgs p {
+        color: #05161e; 
+        padding: 0;
+        margin: 0;
+    }
+
+div.bubble {
+    position: relative;
+    background: #fff;
+    border-radius: 10px;
+    padding: 10px;
+    width: fit-content;
+}
+    div.chatroomMsgs div.bubble::before {
+        content: "";
+        position: absolute;
+        width: 0px;
+        height: 0px;
+        margin: 1px;
+    }
+    div.sent::before  {
+        inset: auto -10px 3px auto;
+        border-bottom: 10px solid #4ba5e3;
+        border-right: 15px solid transparent;
+    }
+    
+    div.received::before {
+        inset: auto auto 3px -10px;
+        border-bottom: 10px solid #fff;
+        border-left: 15px solid transparent;
+    }
+    div.sent {
+        margin: 2% 2% 2% auto ;
+        background-color: #4ba5e3;
+        color: #fff;
+    }
+    div.received{
+        margin: 2% auto 2% 2%;
+    }
+div.chatRoomSend {
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    width: 100%;
+}
+
+@media (max-width:700px){
+        
+}
+   
+@media (min-width:701px){
+}

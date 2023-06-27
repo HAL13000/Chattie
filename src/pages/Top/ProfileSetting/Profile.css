@@ -1,0 +1,162 @@
+div.profile {
+    margin: 0;
+    padding: 0;
+    color: #05161e;
+}
+div.headerProfileContainer {
+    display: flex;
+}
+header.profile h1 {
+    font-size: 20px;
+    color: #fff;
+    padding:0 10px;
+    margin: 0;
+}
+header.profile button {
+    background-color: transparent;
+    margin: 0 0 0 10px;
+}
+div.profileContainer {
+    /* background: rgb(146, 146, 207); */
+    margin: 0;
+    padding: 0 10%;
+    height: 100vh;
+}
+form.profileImage {
+    /* background-color: rgb(225, 70, 70); */
+    padding: 10% 20%;
+    margin: 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    /* padding-top: 10%; */
+}
+    div.profileImg {
+        /* background-color: yellow; */
+        width: 150px;
+        height: 150px;
+        background-color: #377da33d;
+        border-radius: 10px;
+        border: #fff 2px solid;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        padding: 0;
+        margin: 5%;
+        color: #fff;
+    }
+    div.loadingContainer {
+        margin: 0;
+        padding: 0;
+    }
+    div.loadingBar {
+        color: #377da3;
+    }
+    form.profileImage img{
+        width: 100%;
+        height: 100%;
+        border-radius: 10px;
+        padding: 0;
+        margin: 0;
+    }
+    div.profileImgUPL {
+        margin: 0;
+        padding: 0;
+        /* background-color: red; */
+        display: flex;
+    }
+    div.profileImgUPL button {
+        margin-top: 0;
+        margin: 1%;
+    }
+
+form.profileDisplayName {
+    padding: 3% 0 ;
+    margin: 0;
+}
+    label.profileDisplayName p{
+        margin: 0;
+        padding: 0;
+        font-size: 13px;
+    }
+     label.profileDisplayName input{
+        font-size: 16px;
+        border-radius: 50px;
+        border: none;
+        padding: 5%;
+        margin: 0;
+        width: 60%;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+    form.profileDisplayName button{
+         margin: 1%;
+    }
+
+div.myProfile {
+    padding: 3% 0;
+    margin: 0;
+}
+    p.profileItem {
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+    }
+    p.profileData {
+        background-color: #fff;
+        font-size: 13px;
+        padding: 0;
+        margin: 0;
+        border-radius: 50px;
+        border: none;
+        padding: 5%;
+        margin: 0;
+        box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+    }
+
+    @media (min-width:700px){
+        div.profile {
+            align-items: center;
+            justify-content: center;
+        }
+        div.profileContainer {
+            width: 50%;
+            height: 90%;
+            margin: 2% 15%;
+            border-radius: 50px;
+            box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.2);
+        }
+        div.profileSmallContainer {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 5%;
+        }
+        form.profileImage {
+            padding: 10% 20%;
+            margin: 0;
+            align-items:flex-start;
+            display: flex;
+            flex-direction: column;
+        }
+            div.profileImg {
+                width: 200px;
+                height: 200px;
+            }
+     }
+        
+     @media (min-width:1001px){
+        div.profile {
+            align-items: center;
+            justify-content: center;
+        }
+        div.profileContainer {
+            width: 30%;
+            margin: 1% 25%;
+        }
+        div.profileSmallContainer {
+            display: flex;
+            flex-direction: column;
+            padding-bottom: 2%;
+        }
+        div.profileImg {
+            width: 220px;
+            height: 220px;
+        }
+     }

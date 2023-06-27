@@ -1,0 +1,21 @@
+div.demo {
+    height: 100vh;
+    background-image: url(../pics/background01.png);
+    background-color: rgba(190, 207, 233, 0.5);
+    background-blend-mode: overlay;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+    height: 100vh;
+    /* background: radial-gradient(ellipse at center, rgba
+    (255, 254, 234 ,1) 0%, rgba(255,254,234,1) 35%, #B7E8EB 100%
+    ); */
+    overflow: hidden;
+    /* position: relative; */
+}
+
+div.demo p {
+    padding: 0;
+    margin: 0;
+}
